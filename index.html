@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blackjack</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Blackjack</h1>
+    </header>
+
+    <div class="container botones-center btn-espacio">
+      <button id="btnNuevo" class="btn btn-light">Nuevo Juego</button>
+      <button id="btnPedir" class="btn btn-light">Pedir carta</button>
+      <button id="btnDetener" class="btn btn-light">Detener</button>
+    </div>
+
+<div class="row">
+<div class="col-md-6 border-light mb-2 ">
+  <div class="row container">
+    <div class="col">
+      <h2>Jugador : <small>0</small> puntos</h2>
+      <div id="jugador-cartas"> <!--uso este id para modificar el dom desde js-->
+        <!-- <img src="assets/cartas/10C.png" alt="" class="carta" /> clase carta es para manipular desde js el css.-->
+       </div>
+    </div>
+  </div>
+</div>
+
+  <div class="col-md-6">
+    <div class="row container mt-2">
+      <div class="col">
+        <h2>Computadora  <small>0</small> puntos</h2>
+        <div id="computadora-cartas">
+          <!-- <img src="assets/cartas/10C.png" alt="" class="carta" /> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    
+
+    <script src="assets/js//underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+  </body>
+</html>

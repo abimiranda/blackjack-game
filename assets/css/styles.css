@@ -1,0 +1,38 @@
+body {
+    background-color: #252525;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+h2{
+    text-align: center;
+    color:whitesmoke;
+}
+
+
+.botones-center {
+    text-align: center;
+}
+
+.btn-espacio{
+    margin-bottom: 40px;
+}
+
+.carta {
+    position: relative;
+    left: 100px;
+    width: 110px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+    height: 180px;
+}
